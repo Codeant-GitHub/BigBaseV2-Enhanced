@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cb6d7c6a-e025-4e1c-910f-6d085e4904e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gta">
+      <UniqueIdentifier>{6178880B-CD81-887C-56FD-9E7CC205947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{DEA8820D-CA4A-ADE3-B305-C1379F463434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logger">
+      <UniqueIdentifier>{26171503-012b-4709-a925-c081fcdb6260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{8b647454-23e0-4a66-9969-4eaf292df335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file_manager">
+      <UniqueIdentifier>{e6c0aaf2-328e-4781-a9a3-8c168701e12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks">
+      <UniqueIdentifier>{40172978-7c30-4843-94a3-e3a52d3e8246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crossmap.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\detour_hook.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fiber_pool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fonts.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\function_types.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_global.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_hook.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_mgr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vmt_hook.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\exception_handler.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\logger.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\stack_trace.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\is_proton.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager\file.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager\folder.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\signature.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\kiero.hpp">
+      <Filter>src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\d3d12hook.hpp">
+      <Filter>src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\hooks.hpp">
+      <Filter>src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguibitfield.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\all.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\batch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\byte_patch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\fwddec.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\handle.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\module.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pattern.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\range.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_pointers_layout_info.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sc_pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sc_pointers_layout_info.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\eExplosionTag.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\eHandlingType.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\enums.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\fwddec.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\joaat.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\natives.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_id.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_program.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\vehicle_values.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\vehicles.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\weapon_info_manager.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\weapons.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\compile_time_helpers.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detour_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fiber_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fonts.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\invoker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vmt_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\exception_handler.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\logger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\stack_trace.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager\file.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager\folder.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\signature.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\kiero.cpp">
+      <Filter>src\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\d3d12hook.cpp">
+      <Filter>src\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\hooks.cpp">
+      <Filter>src\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\batch.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\byte_patch.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\module.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pattern.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\range.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\call_asm.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
